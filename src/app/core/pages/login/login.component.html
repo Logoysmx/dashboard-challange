@@ -1,0 +1,20 @@
+<div class="container">
+    <div class="formContainer">
+      <div class="centered loginForm">
+        <img class="logo" src="../../../../assets/oyster_h_color.png">
+        <form (ngSubmit)="formSubmit()" [formGroup]="loginForm">
+          <h2>Iniciar sesión</h2>
+          <div class="input-container">
+            <input class="input" type="email" name="email" id="email" placeholder="Username" formControlName="email">
+          </div>
+          <div class="input-container">
+            <input class="input" type="password" name="pass" id="pass" placeholder="Password" formControlName="pass">
+          </div>        
+          <button type="submit" class="btn dark-green">Login</button>
+          <div class="account-manager">
+            <a href="#">Create account</a>
+          </div>
+        </form>      
+      </div>
+    </div>
+  </div>

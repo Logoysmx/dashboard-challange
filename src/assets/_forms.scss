@@ -1,0 +1,32 @@
+@import "../assets/colors";
+
+.input-container {
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    font: inherit;
+}
+
+.input {
+    display: block;
+    width: 100%;
+    padding: .8rem 1rem;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    border: 1px solid $light-gray;
+}
+
+.btn {
+    border: none;
+    padding: .7rem 2.2rem;
+    font-size: 1.3rem;
+    border-radius: 5px;
+    font: inherit;
+    font-weight: 600;
+    &.ocean {
+        background-color: $ocean;
+    }
+    &.dark-green {
+        background-color: $dark-green2;
+        color: $white;
+    }
+}

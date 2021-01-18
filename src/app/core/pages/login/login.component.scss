@@ -1,0 +1,30 @@
+@import "../../../../assets/forms";
+@import "../../../../assets/colors";
+
+.container {
+    display: table;
+    width: 100%;
+    height: 100%;
+    .formContainer {
+        vertical-align: middle;
+        display: table-cell;
+        .loginForm {
+            width: 400px;
+            margin: 0 auto;
+        }
+    }
+}
+
+.logo {
+    width: 300px;
+    height: auto;
+}
+
+.account-manager {
+    padding-top: 1rem;
+    a {
+        color: inherit;
+        text-decoration: none;
+        font-size: .8rem;
+    }
+}
